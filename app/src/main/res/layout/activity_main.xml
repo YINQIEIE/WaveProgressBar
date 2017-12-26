@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context="com.yq.waveprogressbar.MainActivity">
+
+    <com.yq.waveprogressbar.WaveProgressBar
+        android:id="@+id/wp"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        app:circle_color="#FF40F2FF"
+        app:second_water_color="@android:color/holo_blue_light"
+        app:water_color="@android:color/holo_blue_dark"
+        app:waveHeight="20dp"
+        app:waveWid="50dp" />
+
+</LinearLayout>

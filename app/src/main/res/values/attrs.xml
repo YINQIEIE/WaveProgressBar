@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="WaveProgressBar">
+        <attr name="waveWid" format="reference|dimension" />
+        <attr name="waveHeight" format="reference|dimension" />
+        <attr name="circle_color" format="reference|color" />
+        <attr name="water_color" format="reference|color" />
+        <attr name="second_water_color" format="reference|color" />
+    </declare-styleable>
+</resources>
